@@ -15,3 +15,10 @@ end = int(input(" кінцеве число: "))
 for i in range(start, end + 1):
     print(i)
 
+n = int(input("число дя обчислення факторіалу: "))
+factorial = 1
+
+for i in range(1, n + 1):
+    factorial *= i
+
+print(f"Факторіал числа {n} = {factorial}")
